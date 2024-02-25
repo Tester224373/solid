@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "Paid",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/MyContract.sol": "Demo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/MyContract.sol": {
+			"keccak256": "0x7e8cc914e1c07c5a7381b1e575185a9417411c8e1cae56505c0412888ac6e872",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://758e8197867462c0ac8a628772370140850041df1890bf4df789cd2ef77891a1",
+				"dweb:/ipfs/QmXpY5s23pBYdBKEWCNt1eRx3ZewZPsX8xWr8p6HHsLzv4"
+			]
+		}
+	},
+	"version": 1
+}
